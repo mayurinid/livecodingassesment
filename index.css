@@ -1,0 +1,129 @@
+
+header{
+    font-size: 20px;
+    text-align: center;
+}
+.container{
+
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    position: absolute;
+    top:50px;
+    left:0;
+}
+.childcontainer{
+    width: 200px;
+    height: 350px;
+    border: 1px solid #A3E4D7 ;
+    background-color:#A3E4D7;
+    margin: 40px;
+}
+.childcontainer:hover{
+    width: 200px;
+    height: 350px;
+    border: 1px solid #A3E4D7 ;
+    background-color:#4A235A ;
+}
+button{
+    position:relative;
+    top:10px;
+    left:50px;
+    padding: 10px 10px;
+    background-color:#21618C;
+    border-radius: 10px;
+    color:#FDFEFE;
+}
+button:hover{
+    position:relative;
+    top:10px;
+    left:50px;
+    padding: 10px 10px;
+    background-color:#FDFEFE;
+    border-radius: 10px;
+    color:#21618C;
+}
+p{
+    text-align: center;
+    
+}
+img{
+  position: relative;
+  top:10px;
+  left: 70px; 
+}
+.head{
+    text-align: center;
+    color:#FDFEFE  ;
+}
+/* .abc{
+    width:100px;
+    animation: abc 2s linear infinite;
+}
+@keyframes abc{
+    0%{
+        transform: scaleX(20deg);
+    }
+   
+} */
+@media screen and  (max-width:450px)   {
+    header{
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+    }
+    .container{
+    
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+    .childcontainer{
+       
+        width: 200px;
+        height: 350px;
+        border: 1px solid #A3E4D7 ;
+        background-color:#A3E4D7;
+        margin: 40px;
+        align-items: center;
+    }
+    .childcontainer:hover{
+        width: 200px;
+        height: 350px;
+        border: 1px solid #A3E4D7 ;
+        background-color:#9B59B6 ;
+    }
+    button{
+        position:relative;
+        top:10px;
+        left:50px;
+        padding: 10px 10px;
+        background-color:#21618C;
+        border-radius: 10px;
+        color:#FDFEFE;
+    }
+    button:hover{
+        position:relative;
+        top:10px;
+        left:50px;
+        padding: 10px 10px;
+        background-color:#FDFEFE;
+        border-radius: 10px;
+        color:EB1236;
+    }
+    p{
+        text-align: center;
+        
+    }
+    img{
+      position: relative;
+      top:10px;
+      left: 70px; 
+    }
+    .head{
+        text-align: center;
+        color:#FDFEFE  ;
+    }  
+}
